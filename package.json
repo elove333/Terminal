@@ -1,0 +1,22 @@
+{
+  "name": "vercel-link-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for linking Vercel projects to local directories",
+  "main": "index.js",
+  "bin": {
+    "vercel": "./vercel.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vercel",
+    "cli",
+    "link"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/toolbar": "^0.1.0"
+  }
+}

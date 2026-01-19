@@ -2,7 +2,7 @@
   "name": "vercel-link-cli",
   "version": "1.0.0",
   "description": "A CLI tool for linking Vercel projects to local directories",
-  "main": "index.js",
+  "main": "vercel.js",
   "bin": {
     "vercel": "./vercel.js"
   },

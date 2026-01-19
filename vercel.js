@@ -40,9 +40,11 @@ function main() {
   }
 
   // Create a project.json file to simulate the link
+  const timestamp = Date.now();
+  const randomSuffix = Math.random().toString(36).substring(2, 15);
   const projectConfig = {
-    projectId: `prj_${Date.now()}`,
-    orgId: `org_${Date.now()}`,
+    projectId: `prj_${timestamp}_${randomSuffix}`,
+    orgId: `org_${timestamp}_${randomSuffix.split('').reverse().join('')}`,
     linkedAt: new Date().toISOString(),
     path: targetDir
   };
